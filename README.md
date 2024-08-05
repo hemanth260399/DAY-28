@@ -1,8 +1,12 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1>Day-28 Mobile Shopping cart using Redux</h1>
+<ul>
+  <li>In this task i have created the shopping cart using mobile  products</li> 
+  <li>I just perform the get the all product details given by you and i created the cards of the product and i display but image not working so i get the image from freepik</li>
+  <li>Main task given by you is to perform the redux concepts i use store file in this file and i created the reducer with switch case function and i created the function like add to cart and remove from cart and data are stored in the inital value and same time i created the total product as same as inital value if the roduct add to cart the total product will incraese one or if i press remove from cart button the total product will minus one  </li>
+  <li>redux is same as context api first i create the store and i provide to all child in app.jsx and i use the data in all the child without rerendering all child</li>
+  <li>In this i craeted the useselector to get data from reducer and i use the data to show the product in the cart and i use dispatch function to use the fucntion i used in reducer switch case like add to cart and remove from cart i call it as a callback function and pas the value as object to the reducer and it call the function and store the data in initial value and added data is stored and data are displayed in cart area</li>
+  <li>in this i used react router dom to seperate the task for my comfort</li>
+  <li>In the i used another function to increase the product it will automatically change the qty price and total price for this i have used usestate and store a id of the product with qty piece increase by getting e.target.value by this i can specify the product qty and then i have created caltotal function and pass the whole product data and seperate the product id and use as index value to find the which product in the qtypiece and then i get product price from the value getting data then i multiple the price and qty and i shown in the price place if the input is not changed means the value is 1 i have set default</li>
+  <li>For total i have use reduce function add price in this if usestate redener the total execute and calcualte the total i set inital vaue as 0 caltotal function execute and all product will get all price of product will added and shown in the total area</li>
+  <li> In this i craeted the bootstrap for design i trying imporve my design skills</li>
+</ul>
